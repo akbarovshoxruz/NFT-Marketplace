@@ -545,6 +545,9 @@ main {
     background-color: #3B3B3B;
     padding: 0px 50px;
     margin-left: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .cartinka2-card {
     width: 100%;

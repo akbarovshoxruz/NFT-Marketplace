@@ -4,26 +4,17 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-color: #2B2B2B;
+}
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
-
-.connect-navbar {
-    display: flex;
-}
-
 .nav {
     width: 100%;
     height: 100px;
     background-color: #2B2B2B;
-}
-
-.connect-navbar img {
-    width: 32px;
-    height: 32px;
-    margin-top: 20px;
 }
 
 .navbar-connect-text {
@@ -72,7 +63,7 @@
 }
 
 .navbar-connect-button {
-    width: 200px;
+    width: 150px;
     height: 60px;
     gap: 10px;
     border: none;
@@ -85,6 +76,8 @@
     background-color: #A259FF;
     color: white;
     margin-left: 20px;
+    position: relative;
+    bottom: 20px;
 }
 
 .navbar-connect-button i {
@@ -976,5 +969,4 @@
     height: 334px;
     background-color: #3B3B3B;
     position: relative;
-    bottom: 30px;
 }
